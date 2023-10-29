@@ -1,0 +1,31 @@
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: brown;
+  display: flex;
+  flex-direction: row;
+  border-bottom: white 300px;
+}
+
+.navbar .main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.navbar .mainLink {
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.navbar .mainLink a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar .main img{
+    height: 70px;
+}
